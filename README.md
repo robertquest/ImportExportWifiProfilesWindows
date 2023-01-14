@@ -16,3 +16,19 @@ Additionally, it also includes BAT files that use netsh command for exporting an
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
+
+## Lessons Learned
+
+1. Download the import and export scripts from this project to your computer.
+2. To export profiles from a Windows 7 system, run the "ExportWifi.bat" file.
+- Open the Start menu and search for "cmd"
+- Right-click on "cmd" and select "Run as administrator"
+- Navigate to the folder where the "ExportWifi.bat" file is located (e.g. by using the command cd "C:\path\to\folder")
+- Run the "ExportWifi.bat" file by typing the file name (e.g. ExportWifi.bat) and pressing enter
+- Check the "C:\Wifi" folder for XML files with the profile.
+3. To import profiles to a Windows 10 or 11 system, first ensure you have the WifiProfileManagement module installed.
+- Open PowerShell as administrator
+- Run the command Install-Module -Name WifiProfileManagement to install the module
+- Run the PowerShell script "ImportWifiPs.ps1" from the folder containing the profiles.
+- In PowerShell navigate to the folder containing the "ImportWifiPs.ps1" file (e.g. by using the command cd "C:\path\to\folder")
+- Run the "ImportWifiPs.ps1" file by typing the file name (e.g. ImportWifiPs.ps1) and pressing enter. The script will automatically import all profiles from the "C:\Wifi" folder
