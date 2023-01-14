@@ -14,7 +14,8 @@ Additionally, it also includes BAT files that use netsh command for exporting an
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode)
+
 
 
 ## Lessons Learned
